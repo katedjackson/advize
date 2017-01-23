@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "title-font";
+    src: url("./bromello.ttf");
+}
+
+@font-face {
+  font-family: "header-font";
+    src: url("./cooper-hewitt/CooperHewitt-Thin.otf");
+}
+
+@font-face {
+  font-family: "body-font";
+    src: url("./cooper-hewitt/CooperHewitt-Light.otf");
+}
+
+body {
+  font-family: "body-font";
+}
+
+#main > div:nth-child(1) > div > nav > div > div.navbar-header > a {
+  font-family: "title-font";
+  font-size: 4em;
+  color: black;
+  padding: 10px 5px 5px 0;
+  margin: 15px 10px 5px 0;
+}
+
+.splash-screen {
+  background-image: url("./images/background5.png");
+  height: 75vh;
+}
+
+.splash-screen h1 {
+  font-family: "title-font";
+  font-size: 4em;
+  padding-top: 20vh;
+  text-align: center;
+}
+.splash-screen h2 {
+  font-family: "header-font";
+  text-align: center;
+}
+
+form input {
+  border-radius: 3px;
+  margin: 10px 3px 15px 3px;
+  padding: 3px;
+}
+
+div .whoami {
+  margin: 10px 3px 15px 3px;
+  padding: 3px;
+}
+.whoami button {
+  border-radius: 5px;
+}
+
+.whoami span {
+  margin: 5px;
+}
+
+div .running-record .container {
+  border-width: 2px;
+}
+
+div .row {
+  border-color: black;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+}
+
+div .std-info {
+  border-top-width: 1px;
+}
+
+div .input-table {
+  border-color: black;
+  border-style: solid;
+  border-width: 0 1px 0 0;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+div .class-list {
+  position: fixed;
+  text-align: center;
+}
+
+div .img-responsive {
+  display: inline;
+  max-height: 40px;
+  max-width: 80px;
+  position: relative;
+}
+
+div .home-options {
+  text-align: center;
+  font-size: 2em;
+}
